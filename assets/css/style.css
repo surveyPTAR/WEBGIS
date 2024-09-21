@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #0a4364;
+}
+
+body {
+  font-family: Poppins !important;
+}
+
+/* button custom */
+.btn-custom {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.btn-custom:hover {
+  background-color: #052e46;
+  color: #ffffff;
+}
+/* end button custom */
+
+/* card peta */
+.card-peta {
+  background-color: #ffffff;
+  border: 1px solid var(--primary-color);
+}
+
+.img-peta {
+  border-radius: 10px;
+}
+
+/* end card peta */
+
+/* .judul-video {
+  position: absolute;
+  background-color: #ffffffe6;
+  padding: 5px;
+} */
+
+/* .col-tentang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.tentang-video {
+  border-radius: 10px;
+}
+
+.tentang-desc {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
